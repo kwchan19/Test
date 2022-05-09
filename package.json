@@ -1,0 +1,22 @@
+{
+  "name": "nuxtjs",
+  "version": "1.0.0",
+  "description": "My astonishing Nuxt.js project",
+  "author": "msweeneydev",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@solana/wallet-adapter-base": "0.9.3",
+    "@solana/wallet-adapter-vue": "0.4.5",
+    "@solana/wallet-adapter-vue-ui": "0.2.4",
+    "@solana/wallet-adapter-wallets": "0.15.2",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
